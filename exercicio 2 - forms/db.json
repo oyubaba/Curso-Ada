@@ -1,0 +1,32 @@
+{
+  "cadastros": [
+    {
+      "fnome": "cebolinha",
+      "lnome": "ribeiro",
+      "birthdate": "2023-10-16",
+      "castrado": true,
+      "id": 1
+    },
+    {
+      "fnome": "scooby",
+      "lnome": "doo",
+      "birthdate": "2023-10-16",
+      "castrado": true,
+      "id": 2
+    },
+    {
+      "fnome": "belinha",
+      "lnome": "silva",
+      "birthdate": "2023-10-16",
+      "castrado": true,
+      "id": 3
+    },
+    {
+      "fnome": "magali",
+      "lnome": "costa",
+      "birthdate": "2023-10-16",
+      "castrado": true,
+      "id": 4
+    }
+  ]
+}

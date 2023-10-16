@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Miau Community</title>
+</head>
+
+<body>
+    <main>
+        <div>
+            <div class="container">
+                <div class="image">
+                    <img src="cat.jpg" alt="">
+                </div>
+                <div class="form-container">
+                    <div class="form-header">
+                        <h1>Cadastro de Gatos</h1>
+                        <p>Cadastre seu gatinho para fazer parte de nossa comunidade e conhecer amiguinhos para seu pet.
+                        </p>
+                    </div>
+                    <div class="form-box">
+                        <form action="" id="form">
+                            <div class="form-boxes">
+                                <div class="form-inputs">
+                                    <label for="fname">Primeiro Nome:</label><br>
+                                    <input type="text" id="fname" name="fname">
+                                </div>
+                                <div class="form-inputs">
+                                    <label for="lname">Último Nome:</label><br>
+                                    <input type="text" id="lname" name="lname">
+                                </div>
+                            </div>
+                            <div class="form-boxes">
+                                <div class="form-inputs">
+                                    <label for="birthdate">Dia do Nascimento:</label><br>
+                                    <input type="date" id="birthdate" name="birthdate">
+                                </div>
+                                <div class="form-inputs" id="radio-inputs">
+                                    <input type="radio" id="fem" name="radio">
+                                    <label for="fem">Femea</label><br>
+                                    <input type="radio" id="mac" name="radio">
+                                    <label for="mac">Macho</label><br>
+                                </div>
+                            </div>
+                            <input type="checkbox" id="castrado" name="castrado" value="castrado">
+                            <label for="Castrado">Castrado</label><br>
+                            <div class="form-button">
+                                <input type="submit" value="Cadastrar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="list-container">
+            <div class="list">
+                <p>Gatinhos da Comunidade:</p>
+                <div id="item-list">
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
